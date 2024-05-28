@@ -32,7 +32,7 @@ const SubCategory = () => {
   };
 
   useEffect(() => {
-    getSubCategoryData("ecommerce/category/getChildCategories?browsePath=6648217031/6648218031/11987349031/11987350031");
+    getSubCategoryData("9ebd06a3-319b-4a21-ad1a-0dcf8f74e147");
   }, []);
   return (
     <>
@@ -45,7 +45,7 @@ const SubCategory = () => {
         <Alert
           variant="danger"
           onClose={() =>
-            getSubCategoryData("ecommerce/category/getChildCategories?browsePath=6648217031/6648218031/11987349031/11987350031")
+            getSubCategoryData("9ebd06a3-319b-4a21-ad1a-0dcf8f74e147")
           }
           dismissible
         >

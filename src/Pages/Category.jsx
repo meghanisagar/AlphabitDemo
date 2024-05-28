@@ -32,7 +32,7 @@ const Category = () => {
   };
 
   useEffect(() => {
-    getCategoryData("ecommerce/category/getMainCategories");
+    getCategoryData("0e1dd55a-6038-4dcd-96da-3d06786306dd");
   }, []);
   return (
     <>
@@ -45,7 +45,7 @@ const Category = () => {
         <Alert
           variant="danger"
           onClose={() =>
-            getCategoryData("ecommerce/category/getMainCategories")
+            getCategoryData("0e1dd55a-6038-4dcd-96da-3d06786306dd")
           }
           dismissible
         >
